@@ -56,3 +56,32 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.getElementById("navbar").classList.add("fixed");
+    document.getElementById("navlogo").classList.add("fixed");
+    document.getElementById("navlink1").classList.add("fixed");
+    document.getElementById("navlink2").classList.add("fixed");
+    document.getElementById("navlink3").classList.add("fixed");
+    document.getElementById("navlink4").classList.add("fixed");
+    document.getElementById("navlink5").classList.add("fixed");
+    document.getElementById("navlink6").classList.add("fixed");
+   
+  } else {
+    document.getElementById("navbar").classList.remove("fixed");
+    document.getElementById("navlogo").classList.remove("fixed");
+    document.getElementById("navlink1").classList.remove("fixed");
+    document.getElementById("navlink2").classList.remove("fixed");
+    document.getElementById("navlink3").classList.remove("fixed");
+    document.getElementById("navlink4").classList.remove("fixed");
+    document.getElementById("navlink5").classList.remove("fixed");
+    document.getElementById("navlink6").classList.remove("fixed");
+   
+  }
+}
+
+

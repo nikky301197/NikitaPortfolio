@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -9,6 +8,7 @@
       </style>
     <link rel="stylesheet" href="style.css">
     <script src="myscript.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
@@ -18,6 +18,7 @@
      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
    </head>
 <body>
   <!-- Move to up button -->
@@ -25,37 +26,49 @@
     <a href="#home"><i class="fas fa-arrow-up"></i> </a>
   </div>
   <!-- navgaition menu -->
-  <nav>
-
-    <div class="navbar">
-     <h3><a href="#"  style="color: #4070F4; font-weight: bold;">My Portfolio</a></h3>
-      <ul class="menu">
-          <li><a class="x" href="#home">Home</a></li>
-          <li><a class="x" href="#about">About</a></li>
-          <li><a  class="x" href="#skills">Skills</a></li>
-          <li><a class="x" href="#experience">Experience</a></li>
-          <li><a class="x" href="#projects">Projects</a></li>
-          <li><a class="x" href="#contact">Contact</a></li>
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
-      </ul>
-      <div class="media-icons">
-        <a href="https://www.linkedin.com/in/pankaj1417/"><i class="fab fa-linkedin"style="color: white;"></i></a>
-        <a href="https://github.com/Pankaj1417"><i class="fab fa-github"style="color: white;"></i></a>
-        <a href="https://www.facebook.com/people/Pankaj-Kumar/100012823388098/"><i class="fab fa-facebook"style="color: white;"></i></a>
-      </div>
-    </div>
-    <div class="menu-btn">
-      <i class="fas fa-bars"></i>
-    </div>
+  <nav id="navbar" class="col-lg-12 navbar sticky-top  navbar-expand-lg navbar-light py-3 "
+  style=" padding-left: 50px; ">
+  
+  <a id="navlogo" class=" navbar-brand nav-logo "
+    style="font-size: 30px;  "
+    href="#"><b>My Portfolio</b> </a>
+  <button class="navbar-toggler bg-white" type="button"
+    data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav   "
+      style=" font-size: 16px; ">
+      <li class=" nav-item active pl-lg-5">
+        <a id="navlink1" class="  nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class=" nav-item">
+        <a id="navlink2" class="  nav-link" href="#about">About</a>
+      </li>
+      <li class=" nav-item">
+        <a id="navlink3" class=" nav-link" href="#skills">Skills</a>
+      </li>
+      <li class=" nav-item">
+        <a id="navlink4" class="  nav-link" href="#experience">Experience</a>
+      </li>
+      <li class=" nav-item">
+        <a id="navlink5" class="  nav-link" href="#projects">Projects</a>
+      </li>
+      <li class=" nav-item">
+        <a id="navlink6" class="  nav-link" href="#contact">Contact</a>
+      </li>
+     
+    </ul>
+  </div>
   </nav>
-
+ 
 <!-- Home Section Start -->
  <section class="home" id="home">
    <div class="home-content">
-     <div class="text mt-5">
-       <div class="text-one"><b>Hello,</b></div>
+     <div class="text mt-lg-3 mt-5">
+       <div class="text-one" ><b>Hello,</b></div>
        <div class="text-two">I'm Nikita Chouhan</div>
        <div class="text-three"> <b>Senior Software Engineer </b></div>
        <div>
@@ -63,7 +76,7 @@
       
 <h3 class="mt-4">
   <b>
-  <span> Experties In </span>
+  <span style="color: #0E2431"> Experties In </span>
   <a style="color: #4070F4;" class="typewrite" data-period="500" data-type='[ " Java 8 ", "Spring Boot", "Restful web services ", "MySQL ", "React JS" ,"HTML & CSS" , "Bootstrap" ]'>
     <span class="wrap"></span>
   </a>
@@ -102,7 +115,7 @@
       
       </p>
       <div class="button mt-5 ">
-        <a class = "y" href="https://drive.google.com/file/d/1IpPumOec6neJexVUGgLMdgSAJczTYzso/view">Download Resume</a>
+        <a class = "y" href="https://drive.usercontent.google.com/u/0/uc?id=1CmWcv1x0VIp6OLBFES-p93eFcZXG_I79&export=download">Download Resume</a>
       </div>
     </div>
   </div>
