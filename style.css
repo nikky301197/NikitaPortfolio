@@ -349,7 +349,7 @@ footer .text span a:hover {
   .myimg
   {
     width: 500px !important;
-    height: 500px !important;
+    height: 600px !important;
   }
   section .content {
     width: 85%;
@@ -469,7 +469,7 @@ footer .text span a:hover {
   .myimg
   {
     width: 400px !important;
-    height: 400px !important;
+    height: 500px !important;
   }
   .home .text-two {
     font-size: 55px;
@@ -486,7 +486,7 @@ footer .text span a:hover {
 {
   .myimg
   {
-    width: 400px !important;
+    width: 300px !important;
     height: 400px !important;
   }
 }
